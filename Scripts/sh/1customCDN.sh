@@ -222,7 +222,7 @@ fi
 
 # 获取有效 task_before.sh 链接
 get_valid_task_before() {
-    task_before_list=(https://raw.githubusercontents.com/flyDream-cyber/FakerVIPflyDream-cyber/FakerVIPflyDream-cyber/FakerVIPflyDream-cyber/FakerVIPflyDream-cyber/FakerVIP/main/Scripts/sh/Helpcode2.8/task_before.sh https://raw.sevencdn.com/flyDream-cyber/FakerVIP/main/Scripts/sh/Helpcode2.8/task_before.sh https://ghproxy.com/https://raw.githubusercontents.com/flyDream-cyber/FakerVIP/main/Scripts/sh/Helpcode2.8/task_before.sh)
+    task_before_list=(https://raw.githubusercontents.com/flyDream-cyber/FakerVIP/main/Scripts/sh/Helpcode2.8/task_before.sh https://raw.sevencdn.com/flyDream-cyber/FakerVIP/main/Scripts/sh/Helpcode2.8/task_before.sh https://ghproxy.com/https://raw.githubusercontents.com/flyDream-cyber/FakerVIP/main/Scripts/sh/Helpcode2.8/task_before.sh)
     for url in ${task_before_list[@]}; do
         check_url $url
         if [ $? = 0 ]; then
